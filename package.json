@@ -14,7 +14,7 @@
   "bugs": "https://github.com/Poseidonas/payload-order-numbers/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Poseidonas/payload-order-numbers"
+    "url": "git+https://github.com/Poseidonas/payload-order-numbers.git"
   },
   "license": "MIT",
   "author": "George Vasiliades (https://github.com/Poseidonas)",
