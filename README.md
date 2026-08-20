@@ -1,6 +1,6 @@
 # payload-order-numbers
 
-[![npm](https://img.shields.io/npm/v/payload-order-numbers?style=flat-square&color=0F766E)](https://www.npmjs.com/package/payload-order-numbers) ![node](https://img.shields.io/badge/node-%3E%3D20-339933?style=flat-square) ![license](https://img.shields.io/badge/license-MIT-6C757D?style=flat-square)
+[![npm](https://img.shields.io/npm/v/payload-order-numbers?style=flat-square&color=0F766E)](https://www.npmjs.com/package/payload-order-numbers) ![node](https://img.shields.io/badge/node-%3E%3D20-339933?style=flat-square) ![license](https://img.shields.io/badge/license-MIT-6C757D?style=flat-square) ![payload](https://img.shields.io/badge/Payload-3.88+-0a0c0b?style=flat-square)
 
 Gives every Payload order a short, human readable number such as `ORD-01042`, assigned in sequence and unique under concurrency, so that a customer and a shop can refer to the same order out loud.
 
@@ -10,6 +10,8 @@ Gives every Payload order a short, human readable number such as `ORD-01042`, as
 - No admin components, so it survives minor releases
 
 ## Install
+
+Requires **Payload 3.88 or newer** and **`@payloadcms/plugin-ecommerce` 3.88 or newer**. Verified against Payload 3.88.0 with the official plugin installed.
 
 ```bash
 pnpm add payload-order-numbers

@@ -1,6 +1,6 @@
 {
   "name": "payload-order-numbers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Human readable sequential order numbers for Payload ecommerce, unique under concurrency.",
   "keywords": [
     "payload",
@@ -54,7 +54,8 @@
     "vitest": "4.0.18"
   },
   "peerDependencies": {
-    "payload": ">=3.50 <4"
+    "@payloadcms/plugin-ecommerce": ">=3.88 <4",
+    "payload": ">=3.88 <4"
   },
   "engines": {
     "node": ">=20"
